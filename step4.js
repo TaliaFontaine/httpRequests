@@ -31,16 +31,12 @@ function getAndPrintHTML(options, callback) {
 function printHTML (html) {
   console.log(html);
 }
-//How html is printed
-function printHTMLUppercase (html){
-    console.log(html.toUpperCase());
-}
 
 var requestOptions = {
   host: 'sytantris.github.io',
   path: '/http-examples/step4.html'
 };
+
 getAndPrintHTML(requestOptions, printHTML);
-getAndPrintHTML(requestOptions, printHTMLUppercase);
 
 
