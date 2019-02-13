@@ -3,7 +3,7 @@ var https = require('https');
 
 var requestOptions = {
         host: 'sytantris.github.io',
-        path: '/http-examples/step1.html'
+        path: '/http-examples/step2.html'
 };
 
 //https.get takes a callback with one parameter - response, which is a Stream that represents the HTTP response
